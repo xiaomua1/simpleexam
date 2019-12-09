@@ -448,7 +448,7 @@
             backdrop:"static"
         });
     });
-    
+
     //删除章节
     $("#delpoint1").click(function(){
         //清除表单数据（表单完整重置（表单的数据，表单的样式））
@@ -470,6 +470,7 @@
             backdrop:"static"
         });
     });
+
     function getpoint() {
         $.ajax({
             url:"${APP_PATH}/examsystem_master_war_exploded/user/pointall.do",
